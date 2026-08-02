@@ -102,6 +102,7 @@
     #cursor-dot.on-target { width: 46px; height: 46px; margin: -23px 0 0 -23px; background: rgba(255,255,255,.1); border-color: #fff; }
   }
   .chip, .tool { white-space: nowrap; flex: none; }
+  .tool-icon.glyph { width: 66% !important; height: 66% !important; background: rgba(255,255,255,.07); box-shadow: inset 0 0 0 1px rgba(255,255,255,.09); padding: 14%; box-sizing: content-box; }
   .lbl-short { display: none; }
   .tool:hover .tool-name { opacity: 1 !important; transform: translate(-50%, 0) !important; }
   .tools { overflow: visible !important; }
@@ -276,22 +277,22 @@
           <p style="margin: 0 0 18px; font-size: 12px; letter-spacing: .16em; text-transform: uppercase; color: var(--color-neutral-600);">Common fraud patterns on existing platforms</p>
           <div class="impact-grid" style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(12px, 1.6vw, 20px);">
             <div style="border: 1px solid var(--edge); background: var(--ink); border-radius: var(--radius-lg); padding: clamp(18px, 2.2vw, 26px);">
-              <img src="https://itssky.co.in/images/image-sharp.svg" alt="" style="width: 26px; height: 26px; filter: invert(1) opacity(.8); margin-bottom: 14px;">
+              <img src="assets/icon-image.svg" alt="" style="width: 26px; height: 26px; filter: invert(1) opacity(.8); margin-bottom: 14px;">
               <h3 style="margin: 0 0 10px; font-size: 16.5px; font-weight: 500; letter-spacing: -.015em;">Fake Listings with Stolen Photos</h3>
               <p style="margin: 0; font-size: 14.5px; line-height: 1.65; color: var(--body-copy);">Fraudsters steal product images from real listings, post them at attractive prices, collect a "reservation deposit," and vanish. Buyers lose money before they've even seen the product.</p>
             </div>
             <div style="border: 1px solid var(--edge); background: var(--ink); border-radius: var(--radius-lg); padding: clamp(18px, 2.2vw, 26px);">
-              <img src="https://itssky.co.in/images/truck.svg" alt="" style="width: 26px; height: 26px; filter: invert(1) opacity(.8); margin-bottom: 14px;">
+              <img src="assets/icon-truck.svg" alt="" style="width: 26px; height: 26px; filter: invert(1) opacity(.8); margin-bottom: 14px;">
               <h3 style="margin: 0 0 10px; font-size: 16.5px; font-weight: 500; letter-spacing: -.015em;">Courier &amp; Advance Payment Scams</h3>
               <p style="margin: 0; font-size: 14.5px; line-height: 1.65; color: var(--body-copy);">Scammers use fake courier receipts to pressure buyers into paying delivery fees upfront. No product ever ships. The courier company doesn't exist.</p>
             </div>
             <div style="border: 1px solid var(--edge); background: var(--ink); border-radius: var(--radius-lg); padding: clamp(18px, 2.2vw, 26px);">
-              <img src="https://itssky.co.in/images/alert-triangle.svg" alt="" style="width: 26px; height: 26px; filter: invert(1) opacity(.8); margin-bottom: 14px;">
+              <img src="assets/icon-alert.svg" alt="" style="width: 26px; height: 26px; filter: invert(1) opacity(.8); margin-bottom: 14px;">
               <h3 style="margin: 0 0 10px; font-size: 16.5px; font-weight: 500; letter-spacing: -.015em;">Physical Meetup Robbery</h3>
               <p style="margin: 0; font-size: 14.5px; line-height: 1.65; color: var(--body-copy);">OLX's own workaround — meet in person — created its own danger. Buyers carrying cash to inspect high-value items like phones or bikes became targets for robbery and assault.</p>
             </div>
             <div style="border: 1px solid var(--edge); background: var(--ink); border-radius: var(--radius-lg); padding: clamp(18px, 2.2vw, 26px);">
-              <img src="https://itssky.co.in/images/card.svg" alt="" style="width: 26px; height: 26px; filter: invert(1) opacity(.8); margin-bottom: 14px;">
+              <img src="assets/icon-card.svg" alt="" style="width: 26px; height: 26px; filter: invert(1) opacity(.8); margin-bottom: 14px;">
               <h3 style="margin: 0 0 10px; font-size: 16.5px; font-weight: 500; letter-spacing: -.015em;">Fake Payment Confirmations</h3>
               <p style="margin: 0; font-size: 14.5px; line-height: 1.65; color: var(--body-copy);">Fraudulent buyers send forged payment screenshots to sellers, pressure them to ship first, then disappear. Sellers hand over the product and never see the money.</p>
             </div>
@@ -511,7 +512,7 @@
         </section>
 
         <div style="margin-top: clamp(34px, 5vw, 60px); padding: clamp(24px, 3.4vw, 40px); border-radius: var(--radius-lg); border: 1px solid var(--edge); background: var(--ink); text-align: center;">
-          <img src="https://itssky.co.in/images/nda.gif" alt="Lock Icon" style="width: 74px; height: auto; margin: 0 auto 16px;">
+          <img src="assets/icon-lock.svg" alt="Lock Icon" style="width: 56px; height: 56px; opacity: .75; margin: 0 auto 16px;">
           <h3 style="margin: 0 0 12px; font-size: clamp(18px, 2.2vw, 24px); font-weight: 500; letter-spacing: -.02em;">This is the end...</h3>
           <p style="margin: 0 auto 22px; font-size: 15px; line-height: 1.7; color: var(--body-copy);">See a little more? click the first button. Wanna know really really more, click the second one.</p>
           <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px;">
@@ -628,7 +629,7 @@
         </sc-if>
 
         <div style="border: 1px solid var(--edge); background: var(--ink); border-radius: var(--radius-lg); padding: clamp(26px, 4vw, 46px); text-align: center;">
-          <img src="https://itssky.co.in/images/nda.gif" alt="" style="width: 64px; height: auto; margin: 0 auto 16px;">
+          <img src="assets/icon-lock.svg" alt="" style="width: 52px; height: 52px; opacity: .75; margin: 0 auto 16px;">
           <h3 style="margin: 0 0 12px; font-size: clamp(17px, 2vw, 21px); font-weight: 500; letter-spacing: -.02em;">And that's all I can reveal here!</h3>
           <p style="margin: 0 auto 22px; font-size: 14.5px; line-height: 1.7; color: var(--body-copy); max-width: 52ch; text-wrap: pretty;">The full story is locked away under NDA. Want to know more? Let's connect and I'll share what I can behind the scenes!</p>
           <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px;">
@@ -874,7 +875,7 @@
         <sc-for list="{{ tools }}" as="t">
           <span class="tool" title="{{ t.name }}" style="position: relative; display: flex; align-items: center; justify-content: center; width: clamp(40px, 4vw, 50px); height: clamp(40px, 4vw, 50px); border-radius: 12px; background: transparent; transition: transform .28s cubic-bezier(.2,.7,.2,1);" style-hover="transform: translateY(-8px) scale(1.14);">
             <sc-if value="{{ t.hasIcon }}" hint-placeholder-val="{{ false }}">
-              <img class="tool-icon lighten" src="{{ t.icon }}" alt="{{ t.name }}" style="width: 100%; height: 100%; object-fit: contain; border-radius: 9px; flex: none;">
+              <img class="tool-icon lighten {{ t.cls }}" src="{{ t.icon }}" alt="{{ t.name }}" style="width: 100%; height: 100%; object-fit: contain; border-radius: 9px; flex: none;">
             </sc-if>
             <span class="tool-name" style="position: absolute; left: 50%; bottom: calc(100% + 12px); transform: translate(-50%, 4px); padding: 5px 10px; border-radius: 999px; background: var(--ink); border: 1px solid var(--edge); font-size: 11.5px; white-space: nowrap; color: var(--color-neutral-200); opacity: 0; pointer-events: none; transition: opacity .22s, transform .22s; z-index: 2;">{{ t.name }}</span>
           </span>
@@ -985,21 +986,21 @@ const CRAFT = [
 ];
 
 const TOOLS = [
-  { name: "Figma", icon: "https://itssky.co.in/images/figma.png" },
-  { name: "Framer", icon: "data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 72'%3E%3Cpath fill='%23e9e9ed' d='M0 0h48v24H24zM0 24h24l24 24H0zM0 48h24v24z'/%3E%3C/svg%3E" },
-  { name: "Claude", icon: "https://itssky.co.in/images/Claude.svg" },
-  { name: "ChatGPT", icon: "https://itssky.co.in/images/ChatGPT.svg" },
-  { name: "Cursor", icon: "https://itssky.co.in/images/CodeX.svg" },
-  { name: "Gemini", icon: "https://itssky.co.in/images/Genimi.svg" },
-  { name: "Lovable", icon: "https://itssky.co.in/images/Loveable.svg" },
-  { name: "Relume", icon: "https://itssky.co.in/images/Relume.svg" },
-  { name: "Hotjar", icon: "https://itssky.co.in/images/Hotjar.svg" },
+  { name: "Figma", icon: "uploads/Figma.png" },
+  { name: "Framer", icon: "uploads/Framer.png" },
+  { name: "Claude", icon: "uploads/Claude.png" },
+  { name: "ChatGPT", icon: "uploads/Chat%20GPT.png" },
+  { name: "Cursor", icon: "uploads/CodeX.png" },
+  { name: "Gemini", icon: "uploads/Genimi.png" },
+  { name: "Lovable", icon: "uploads/Loveable.png" },
+  { name: "Relume", icon: "uploads/Relume.png" },
+  { name: "Hotjar", icon: "uploads/Hotjar.png" },
   { name: "Google Analytics", icon: "data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect x='16' y='2' width='6' height='20' rx='3' fill='%23f9ab00'/%3E%3Crect x='9' y='8' width='6' height='14' rx='3' fill='%23e37400'/%3E%3Ccircle cx='5' cy='19' r='3' fill='%23e37400'/%3E%3C/svg%3E" },
-  { name: "Zoho", icon: "https://cdn.simpleicons.org/zoho" },
-  { name: "Strapi", icon: "https://cdn.simpleicons.org/strapi" },
-  { name: "Illustrator", icon: "https://itssky.co.in/images/Illustrator.svg" },
-  { name: "Photoshop", icon: "https://itssky.co.in/images/Photoshop.svg" },
-  { name: "Premiere Pro", icon: "https://itssky.co.in/images/premiere_pro.svg" }
+  { name: "Zoho", icon: "assets/zoho.svg" },
+  { name: "Strapi", icon: "assets/strapi.svg" },
+  { name: "Illustrator", icon: "uploads/Illustrator.png" },
+  { name: "Photoshop", icon: "uploads/Photoshop.png" },
+  { name: "Premiere Pro", icon: "uploads/Premiere%20Pro.png" }
 ];
 
 const CASE_ACCENT = { kriyam: "#B06BFF", proteger: "#478BFF", goodbook: "#27C291", buseit: "#FF7C3F", workspace: "#5B8CFF" };
@@ -1019,7 +1020,7 @@ const CASES_V2 = {
     statLead: "3X", statRest: " Faster Verifications with zero data leaks…",
     lede: "End-to-end field investigation — dispatch, track, collect, verify.",
     links: [{ label: "View Live Product", href: "#" }],
-    hero: "https://itssky.co.in/images/project-kriyam.jpg",
+    hero: "",
     facts: [
       { k: "Industry", v: "BFSI (Banking, Financial Services, and Insurance)" },
       { k: "Timeline", v: "2023 - 2025\n(With ongoing enhancements)" },
@@ -1028,10 +1029,10 @@ const CASES_V2 = {
       { k: "Stakeholders", v: "Insurance & NBFCs, Operations & Compliance and Verfication Agencies" }
     ],
     impact: [
-      { img: "https://itssky.co.in/images/raw_hs_4.jpg", h: "30% Faster Turnaround Time", p: "Unstructured phone calls and WhatsApp dispatches were replaced with structured digital workflows—making case assignments instant and eliminating delays across every step." },
-      { img: "https://itssky.co.in/images/slide-purple_1.png", h: "80% Fewer Report Errors", p: "Standardised forms and guided inputs removed reliance on manual data entry—significantly improving accuracy and reducing time spent on corrections." },
-      { img: "https://itssky.co.in/images/hs-health.jpg", h: "0% Data Leakage", p: "All customer data is processed within a secure, encrypted environment—eliminating untracked sharing through intermediaries and ensuring full regulatory compliance." },
-      { img: "https://itssky.co.in/images/project-kriyam.jpg", h: "100% Auditable Decisions", p: "Every action is automatically logged, giving teams complete transparency and audit readiness—without manual record-keeping." }
+      { img: "", h: "30% Faster Turnaround Time", p: "Unstructured phone calls and WhatsApp dispatches were replaced with structured digital workflows—making case assignments instant and eliminating delays across every step." },
+      { img: "", h: "80% Fewer Report Errors", p: "Standardised forms and guided inputs removed reliance on manual data entry—significantly improving accuracy and reducing time spent on corrections." },
+      { img: "", h: "0% Data Leakage", p: "All customer data is processed within a secure, encrypted environment—eliminating untracked sharing through intermediaries and ensuring full regulatory compliance." },
+      { img: "", h: "100% Auditable Decisions", p: "Every action is automatically logged, giving teams complete transparency and audit readiness—without manual record-keeping." }
     ],
     overview: [
       "Insurance FCUs, TPAs, and investigation agencies operate in a high-stakes environment where every manual error, every undetected fraud, and every data leak carries direct financial and regulatory consequences. With crores lost annually to insurance fraud in India, IRDAI mandates around data protection tightening, and FCU teams stretched thin, the need for a structured, compliant verification process was not optional — it was critical.",
@@ -1055,7 +1056,7 @@ const CASES_V2 = {
       { n: "Sulagna Giri", r: "Developer" },
       { n: "Suman Mondal", r: "Quality Assurance Engineer" }
     ],
-    outcome: "https://itssky.co.in/images/slide-purple_1.png",
+    outcome: "",
     clientsLabel: "we worked for",
     clients: ["PNB MetLife", "Kotak Life", "Toyota Financial Services", "Edelweiss Life Insurance"],
     ctaLinks: [{ label: "Connect", href: "mailto:ahakash306@gmail.com" }, { label: "Visit Application ↗", href: "https://tfsin.trykriyam.in/users/sign_in" }]
@@ -1065,7 +1066,7 @@ const CASES_V2 = {
     statLead: "35%", statRest: " faster data capture with zero friction on the factory floor.",
     lede: "End-to-end operational intelligence for manufacturers. Designed with factory workers, built for speed.",
     links: [{ label: "Visit Website", href: "#" }],
-    hero: "https://itssky.co.in/images/project-factory.jpg",
+    hero: "",
     facts: [
       { k: "Industry", v: "Manufacturing & Heavy Industries" },
       { k: "Timeline", v: "2023 - Present\n(With ongoing enhancements)" },
@@ -1074,10 +1075,10 @@ const CASES_V2 = {
       { k: "Stakeholders", v: "Factory Owners, Floor Workers, Maintenance Teams, QC, Operations Leadership" }
     ],
     impact: [
-      { img: "https://itssky.co.in/images/project-factory.jpg", h: "35% Faster data capture", p: "Voice and vision based inputs eliminate manual entry friction. Factory workers capture data in seconds, not minutes, even in challenging conditions." },
-      { img: "https://itssky.co.in/images/hs-laptops.jpg", h: "15 minutes saved per shift per worker", p: "Hands-free operation means workers spend less time on paperwork, more time on production. That's genuine productivity gain across your entire floor." },
-      { img: "https://itssky.co.in/images/raw_hs_4.jpg", h: "30% - 40% reduction in downtime", p: "Predictive maintenance alerts mean issues are caught before machines fail. Maintenance teams respond faster. Factory keeps running." },
-      { img: "https://itssky.co.in/images/raw_hs_1.png", h: "40% reduction in errors", p: "Digital capture with AI validation removes human transcription mistakes. No more illegible notes or misplaced data." }
+      { img: "", h: "35% Faster data capture", p: "Voice and vision based inputs eliminate manual entry friction. Factory workers capture data in seconds, not minutes, even in challenging conditions." },
+      { img: "", h: "15 minutes saved per shift per worker", p: "Hands-free operation means workers spend less time on paperwork, more time on production. That's genuine productivity gain across your entire floor." },
+      { img: "", h: "30% - 40% reduction in downtime", p: "Predictive maintenance alerts mean issues are caught before machines fail. Maintenance teams respond faster. Factory keeps running." },
+      { img: "", h: "40% reduction in errors", p: "Digital capture with AI validation removes human transcription mistakes. No more illegible notes or misplaced data." }
     ],
     overview: [
       "When we first stepped onto the factory floor, the reality hit hard. These weren't office workers with ideal conditions. Factory workers were battling poor lighting, wearing heavy gloves, safety helmets, and protective gear that made interaction with standard devices genuinely difficult. They were drowning in paperwork — maintenance logs written by hand, quality checks scribbled on clipboards, material tracking spread across scattered notebooks. This wasn't inefficiency born from laziness. It was a system fundamentally misaligned with how people actually worked.",
@@ -1101,7 +1102,7 @@ const CASES_V2 = {
       { n: "Ruby Roy", r: "Developer" },
       { n: "Suman Pan", r: "Quality Assurance Engineer" }
     ],
-    outcome: "https://itssky.co.in/images/hs-laptops.jpg",
+    outcome: "",
     clientsLabel: "We worked for",
     clients: ["TATA", "Maruti Suzuki"],
     ctaLinks: [{ label: "Connect", href: "mailto:ahakash306@gmail.com" }]
@@ -1111,7 +1112,7 @@ const CASES_V2 = {
     statLead: "90%", statRest: " reduction in payroll processing friction.",
     lede: "A comprehensive HR and attendance platform built for office-based workforces. Intelligence at the point of interaction.",
     links: [{ label: "View Application", href: "#" }, { label: "Visit Website", href: "#" }],
-    hero: "https://itssky.co.in/images/project-hr.jpg",
+    hero: "",
     facts: [
       { k: "Industry", v: "Enterprise HR, Office Workforce Management" },
       { k: "Timeline", v: "2023 - 2024\n(With ongoing enhancements)" },
@@ -1146,7 +1147,7 @@ const CASES_V2 = {
       { n: "Azharuddin Mallick", r: "Developer" },
       { n: "Avishek Sardar", r: "Quality Assurance Engineer" }
     ],
-    outcome: "https://itssky.co.in/images/hs-health.jpg",
+    outcome: "",
     clientsLabel: "",
     clients: [],
     ctaLinks: [{ label: "Connect", href: "mailto:ahakash306@gmail.com" }, { label: "Visit Application ↗", href: "https://goodbook.co.in/auth/signin" }]
@@ -1159,7 +1160,7 @@ const CASES = {
     tag: "BFSI · Web & Mobile",
     title: "Built for trust. Designed for scale.",
     lede: "Insurance field verification runs on WhatsApp forwards, phone calls and paper. Kriyam.ai replaces that with a secure, compliant, fully auditable platform — so agencies get control, speed and confidence at every step.",
-    hero: "https://itssky.co.in/images/project-kriyam.jpg",
+    hero: "",
     facts: [
       { k: "Industry", v: "Banking, Financial Services & Insurance" },
       { k: "Platform", v: "Web dashboard + field mobile app" },
@@ -1184,7 +1185,7 @@ const CASES = {
         "Evidence capture with timestamp, geotag and integrity indicators built into the step, never added later",
         "Status language written for ops, QC and agents to read the same way",
         "A design system covering dense tables, forms and field components on a shared token set"
-      ], img: "https://itssky.co.in/images/slide-purple_1.png" },
+      ], img: "" },
       { h: "Outcome", paras: [
         "Verification became a traceable process instead of a trust exercise. Ops can see every case's state and history without a phone call, QC reviews from evidence rather than narrative, and agents complete cases inside the visit instead of after it.",
         "The system now carries new case types without new design — the part I'm proudest of."
@@ -1196,7 +1197,7 @@ const CASES = {
     tag: "Manufacturing · Web, Tablet & Mobile",
     title: "Building tomorrow's smart factories",
     lede: "End-to-end operational intelligence for manufacturers: machine state, downtime, quality and shift performance in one place. Designed with factory workers, built for speed.",
-    hero: "https://itssky.co.in/images/project-factory.jpg",
+    hero: "",
     facts: [
       { k: "Industry", v: "Manufacturing & heavy industries" },
       { k: "Platform", v: "Web, shop-floor tablet, mobile" },
@@ -1216,7 +1217,7 @@ const CASES = {
       ] },
       { h: "The management view", paras: [
         "Plant heads got the opposite treatment: a comparative dashboard across lines and shifts, with drill-down from an anomaly to the machine event that caused it. Same data model, different reading distance."
-      ], img: "https://itssky.co.in/images/raw_hs_4.jpg" },
+      ], img: "" },
       { h: "Outcome", paras: [
         "Supervisors stopped assembling the daily picture by hand, and downtime conversations moved from blame to cause. The tablet interface is the one operators actually use — the test I care about."
       ] }
@@ -1227,7 +1228,7 @@ const CASES = {
     tag: "Enterprise HR · Web & Mobile",
     title: "Attendance, payroll and HR — beautifully simple",
     lede: "From check-in to payslip, everything a team needs in one place. An HR platform people are required to open, redesigned so they don't dread it.",
-    hero: "https://itssky.co.in/images/project-hr.jpg",
+    hero: "",
     facts: [
       { k: "Industry", v: "Enterprise HR & workforce management" },
       { k: "Platform", v: "Web application + mobile apps" },
@@ -1248,7 +1249,7 @@ const CASES = {
       ] },
       { h: "Systemising it", paras: [
         "Attendance, leave, payroll and profiles share one component set — tables, filters, status pills, approval sheets — so a new module ships looking like the product instead of like a bolt-on."
-      ], img: "https://itssky.co.in/images/hs-laptops.jpg" },
+      ], img: "" },
       { h: "Outcome", paras: [
         "Routine employee tasks stopped needing an explanation, and payroll gained a review step it previously performed on faith. The same design language now absorbs new HR modules without a redesign."
       ] }
@@ -1259,7 +1260,7 @@ const CASES = {
     tag: "C2C Marketplace · iOS & Android",
     title: "Buy it. Use it. Sell it.",
     lede: "A self-initiated concept: a resale marketplace for India built around the real blocker in second-hand commerce — not discovery, but trust.",
-    hero: "https://itssky.co.in/images/project-resale.png",
+    hero: "",
     facts: [
       { k: "Type", v: "Self-initiated concept / MVP" },
       { k: "Platform", v: "iOS & Android, mobile-first" },
@@ -1277,7 +1278,7 @@ const CASES = {
         "Identity and history surfaced where the decision actually happens, not on a profile page",
         "Payment held until handover, with the state of the deal legible to both sides",
         "A dispute path designed before launch, because it's the moment trust is won or lost"
-      ], img: "https://itssky.co.in/images/raw_hs_1.png" },
+      ], img: "" },
       { h: "What I learnt", paras: [
         "Testing the prototype with buyers and sellers showed the friction people accept is the friction they understand. Extra steps that visibly protect them increased confidence; invisible ones just felt slow.",
         "It stays in the lab for now — a concept I use to pressure-test how far interface can carry trust."
@@ -1528,7 +1529,7 @@ class Component extends DCLogic {
         toggle: () => this.setState((s) => ({ open: s.open === i ? null : i }))
       })),
       craft: CRAFT,
-      tools: TOOLS.map((t) => ({ ...t, hasIcon: true }))
+      tools: TOOLS.map((t) => ({ ...t, hasIcon: true, cls: /\.svg$|^data:/.test(t.icon || "") ? "glyph" : "" }))
     };
   }
 }

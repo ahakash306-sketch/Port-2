@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><rect x="1.5" y="1.5" width="45" height="45" rx="11" fill="none" stroke="#ffffff" stroke-opacity=".75" stroke-width="2.5"></rect><text x="24" y="24" fill="#ffffff" font-family="Helvetica,Arial,sans-serif" font-size="19" font-weight="600" text-anchor="middle" dominant-baseline="central">Pr</text></svg>
+<svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="60.36" height="60.36" rx="16" fill="#00005D" fill-opacity="0.2"/>
+<path d="M23.2729 16.0215C31.1635 16.0215 35.6061 19.7154 35.6061 25.9066C35.6061 33.1306 29.5843 36.0377 23.9395 36.0377H20.1199V43.8463H12.3987V16.0215H23.2783H23.2729ZM20.1199 22.6225V29.4312H23.5242C25.8903 29.4312 27.5515 28.4749 27.5515 26.0651C27.5515 23.8629 26.1417 22.617 23.6882 22.617H20.1144L20.1199 22.6225Z" fill="#9A99FF"/>
+<path d="M46.3764 21.792C48.0813 21.792 49.4474 21.9996 50.0704 22.2073V27.8575C49.5731 27.7318 48.6168 27.6499 47.83 27.6499C46.2945 27.6499 45.4202 27.7755 44.6333 28.0651V43.8464H37.3656V23.6226C39.9831 22.4587 42.6005 21.7975 46.3764 21.7975V21.792Z" fill="#9A99FF"/>
+</svg>

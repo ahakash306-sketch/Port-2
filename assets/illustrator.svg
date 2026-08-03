@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><rect x="1.5" y="1.5" width="45" height="45" rx="11" fill="none" stroke="#ffffff" stroke-opacity=".75" stroke-width="2.5"></rect><text x="24" y="24" fill="#ffffff" font-family="Helvetica,Arial,sans-serif" font-size="19" font-weight="600" text-anchor="middle" dominant-baseline="central">Ai</text></svg>
+<svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="60.36" height="60.36" rx="16" fill="#2B1012" fill-opacity="0.2"/>
+<path d="M20.4314 16.0215H29.3166L39.2837 43.8463H31.1417L29.7701 39.6114H19.3495L17.9779 43.8463H10.1693L20.426 16.0215H20.4314ZM27.6117 33.0049L24.5789 23.6607L21.5462 33.0049H27.6117Z" fill="#F4981C"/>
+<path d="M40.475 17.847C40.475 15.8525 42.0105 14.5684 44.3383 14.5684C46.6662 14.5684 48.076 15.8962 48.076 17.847C48.076 19.7978 46.6224 21.2131 44.3383 21.2131C41.9285 21.2131 40.475 19.8852 40.475 17.847ZM40.6826 22.1694H47.9503V43.8467H40.6826V22.1694Z" fill="#F4981C"/>
+</svg>
